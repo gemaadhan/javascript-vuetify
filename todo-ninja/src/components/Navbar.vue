@@ -12,7 +12,7 @@
       >
     </v-app-bar>
 
-    <v-navigation-drawer app v-model="drawer" class="indigo">
+    <v-navigation-drawer app v-model="drawer" class="primary">
       tes</v-navigation-drawer
     >
   </nav>
@@ -23,7 +23,7 @@ export default {
   name: "NavbarComp",
   data() {
     return {
-      drawer: false,
+      drawer: true,
     };
   },
 };
