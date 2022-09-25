@@ -2,7 +2,7 @@
   <!-- v-app is the root component of vuetify, all other component sholud be nested inside them -->
   <v-app>
     <Navbar />
-    <v-main>
+    <v-main class="mx-4 mb-4">
       <router-view />
     </v-main>
   </v-app>

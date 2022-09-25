@@ -1,13 +1,13 @@
 <template>
   <nav>
-    <v-app-bar flat app>
+    <v-app-bar flat app color="white">
       <v-app-bar-nav-icon @click="drawer = !drawer"></v-app-bar-nav-icon>
-      <v-app-bar-title class="text-uppercase gray-text">
+      <v-app-bar-title class="text-uppercase grey-text">
         <span class="font-weight-light">Todo</span>
         <span>Ninja</span>
       </v-app-bar-title>
       <v-spacer></v-spacer>
-      <v-btn text color="gray"
+      <v-btn text color="grey"
         ><span>Sign Out</span><v-icon right>mdi-logout</v-icon></v-btn
       >
     </v-app-bar>
